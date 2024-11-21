@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 85px;
+    
+}
+
+.Hero{
+    font-size: 12px;
+}
+
+.card-img-top{
+    height: 100px;
+    width: 200px;
+    transition: 3s;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.rating{
+    font-size: 12px;
+}
+
+section{
+    padding-bottom: 100px;
+}
+
+.img-carousel{
+    height: 250px;
+    overflow: hidden;
+    object-fit: fill;
+}
+
+.car-img{
+    position: relative;
+}
+
+.preferece{
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    top: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.like{
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 10px;
+  }
+
+.preferece:hover{
+    transform: scale(1.1);
+}
+
+.like:hover{
+    transform: scale(1.1);
+}
+
+.carousel-control-prev{
+    opacity: 0;
+    
+}
+
+.carousel-control-next{
+    opacity: 0;
+}
+
+.carousel-control-prev:hover{
+    opacity: 1;
+}
+
+.carousel-control-next:hover{
+    opacity: 1;
+}
+
+.carousel-control-prev-icon{
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon{
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.navbar-toggler-icon{
+    width: 20px;
+    margin-right: 5px;
+} 
+
+.Host{
+    font-size: 13px;
+}
+
+.fa-globe{
+    width: 6px;
+    
+}
+
