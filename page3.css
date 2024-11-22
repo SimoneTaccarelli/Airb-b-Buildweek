@@ -30,7 +30,7 @@
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
 
 #check-in {
     border-top-left-radius: 15px;
@@ -42,7 +42,7 @@
 }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 575px) {
 
     #check-in {
         border-top-left-radius: 15px;
@@ -80,4 +80,15 @@
 
 li {
     list-style-type: none;
+}
+
+@media (max-width: 991px) {
+
+    .line-1 {
+        border-top: 1px solid lightgray; 
+    }
+    
+    .line-2 {
+        border-top: 1px solid lightgray;
+    }
 }
