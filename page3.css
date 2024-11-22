@@ -1,3 +1,5 @@
+/* NAVBAR */
+
 .logo{
     width: 85px;
 }
@@ -26,6 +28,7 @@
     }
 }
 
+/* HEADER */
 
 .img-container {
     height: 221px;
@@ -74,6 +77,11 @@
 #guests {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: 1px solid black;
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 50px;
 }
 
 #submit {
