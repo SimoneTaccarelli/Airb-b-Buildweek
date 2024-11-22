@@ -98,7 +98,6 @@ section {
 }
 
 
-
 .card {
     margin-top: 5rem;
 }
@@ -117,6 +116,17 @@ section {
 }
 
 @media (max-width: 450px) {
+
+    .misure {
+        width: 350px;
+        height: 190px;
+        overflow: hidden;
+    }
+
+    .misure img {
+        width: 350px;
+        height: 190px;
+    }
 
     .carousel-item h1 {
         font-size: 26px;
@@ -143,6 +153,18 @@ section {
 
 @media (min-width: 451px) and (max-width: 768px) {
 
+    .misure {
+        width: 690px;
+        height: 390px;
+        overflow: hidden;
+    }
+
+    .misure img {
+        width: 690px;
+        height: 390px;
+    }
+
+
     .carousel-item h1 {
         font-size: 35px;
     }
@@ -165,4 +187,15 @@ section {
     }
 
 
+}
+
+.misure {
+    width: 1300px;
+    height: 590px;
+    overflow: hidden;
+}
+
+.misure img {
+    width: 1300px;
+    height: 590px;
 }
