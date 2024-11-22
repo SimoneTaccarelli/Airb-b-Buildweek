@@ -1,7 +1,22 @@
-header {
+/* NAVBAR */
 
-    height: 300px;
+.logo{
+    width: 85px;
 }
+
+.navbar-toggler-icon{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.Host{
+    font-size: 13px;
+}
+
+.fa-globe{
+    width: 6px;
+}
+
 
 #logo img {
     width: 250px;
