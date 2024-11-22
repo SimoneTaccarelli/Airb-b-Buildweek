@@ -2,15 +2,33 @@ body{
     margin: 0;
 }
 
+
+/* NAVBAR */
 .logo{
     width: 85px;
     
 }
 
+.navbar-toggler-icon{
+    width: 20px;
+    margin-right: 5px;
+} 
+
+.Host{
+    font-size: 13px;
+}
+
+.fa-globe{
+    width: 6px;
+    
+}
+
+/* HERO */
 .Hero{
     font-size: 12px;
 }
 
+/* CARD-SECTION */
 .card-img-top{
     height: 100px;
     width: 200px;
@@ -94,17 +112,21 @@ section{
     border-radius: 50%;
 }
 
-.navbar-toggler-icon{
-    width: 20px;
-    margin-right: 5px;
-} 
 
-.Host{
-    font-size: 13px;
+
+/* FOOTER */
+
+li {
+    list-style-type: none;
 }
 
-.fa-globe{
-    width: 6px;
+@media (max-width: 991px) {
+
+    .line-1 {
+        border-top: 1px solid lightgray; 
+    }
     
+    .line-2 {
+        border-top: 1px solid lightgray;
+    }
 }
-
